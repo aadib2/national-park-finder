@@ -4,7 +4,7 @@ Submitted by: Aadi Bery
 
 This web app: Web app similar to StumbleUpon where users can discover info about national parks throughout the US and filter out attributes. Uses National Park Service API
 
-Time spent: 7 hours spent in total
+Time spent: 10 hours spent in total
 
 ## Required Features
 
@@ -19,14 +19,14 @@ The following **required** functionality is completed:
 - [x] **API call response results should appear random to the user**
   - Clicking on the API call button should generate a seemingly random new result each time
   - Note: Repeat results are permitted but the API used should have a reasonably large amount of data and repeats should not be frequent
-- [ ] **Clicking on a displayed value for one attribute adds it to a displayed ban **list**
+- [x] **Clicking on a displayed value for one attribute adds it to a displayed ban **list**
   - At least one attribute for each API result should be clickable
   - Clicking on a clickable attribute not on the ban list, should imnmediately add it to the ban list 
   - Clicking on an attribute in the ban list should immediately remove it from the ban list 
-- [ ] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
+- [x] **Attributes on the ban list prevent further images/API results with that attribute from being displayed**
   - Clicking on the API call button should not result in any image/attributes with attribute values in the ban list being displayed (ex. Using a cat API, if the ban list includes the value 'Siberian' for the breed attribute, clicking on the Discover button should never result in a Siberian cat being displayed)
   - Note: More attribute values on the ban list may result in a higher frequency of repeat results
-  -  [ ] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
+  -  [x] _To ensure an accurate grade, your recording **must** show that when clicked, an attribute in the ban list is immediately removed from the list of banned attributes_
 
 
 The following **optional** features are implemented:
@@ -38,16 +38,17 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you added to improve the site's functionality!
+* [x] List anything else that you added to improve the site's functionality!
+* Added descriptions of each park in additon to attributes 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='myStumbleUpon/src/DemoGIF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+GIF created with ScreenToGif  
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
