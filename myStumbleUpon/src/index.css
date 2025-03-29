@@ -1,0 +1,94 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(39, 37, 37, 0.87);
+  background-color: #2b3a2d;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-image: url('https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.app-container {
+  display: flex; /* Use Flexbox to align children side by side */
+  justify-content: space-between; /* Add space between DiscoverPage and BanList */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px; /* Add padding around the container */
+  gap: 20px; /* Add spacing between the two components */
+}
+
+.discover-button {
+  padding: 10px 20px; /* Adds space inside the button */
+  margin: 10px; /* Adds space outside the button */
+  border-radius: 5px; /* Rounds the corners */
+  background-color: #040404; /* Button background color */
+  color: white; /* Text color */
+  border: none; /* Removes the border */
+  cursor: pointer; /* Changes the cursor to a pointer on hover */
+  font-size: 16px; /* Adjusts the font size */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.discover-body {
+    flex:3;
+    background-color: #e8e8ec;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers elements horizontally */
+    align-items: center; /* Centers elements vertically*/
+    border-radius: 5px;
+    width: 60%;
+    margin: 20px auto;
+
+}
+
+.park-info {
+  margin: 10px;
+}
+
+.park-img {
+    height:200px;
+    width: 300px;
+    margin-bottom: 2rem;
+}
+
+.park-info-attributes {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  justify-content: center; /* Centers elements horizontally */
+  align-items: center; /* Centers elements vertically*/
+}
+
+.attrButton {
+  margin: 5px;
+  background-color: #53be9e; /* Blueish-green background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 7px 12px; /* Add padding for better spacing */
+  border-radius: 8px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+
+}
+
+.ban-list {
+  flex:1;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+  color: white; /* White text color */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  margin-top: 20px; /* Add spacing above the section */
+  text-align: center; /* Center-align text */
+  width: 80%; /* Adjust width */
+  margin-left: auto;
+  margin-right: auto;
+}
