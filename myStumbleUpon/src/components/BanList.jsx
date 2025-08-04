@@ -5,8 +5,8 @@ const BanList = ({bannedAttr, removeFromBanList}) => {
     return (
         // Ban List section
         <div className="ban-list">
-            <h3>Ban List</h3>
-            <p>Select an attribute in your listing to ban it</p>
+            <h3> State Ban List</h3>
+            <p>Select a state in your listing to ban it</p>
             <ul>
                 {/* map every banned attr to a button almost like the one that was clicked*/}
                 {bannedAttr.map((attribute, index) => (
